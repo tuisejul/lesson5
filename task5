@@ -1,1 +1,9 @@
+immutable_var = (1,3,5, "urban")
+print(immutable_var) #Задание1
+
+#нельзя изменить значение кортежа, потому что это сам по себе неизменяемый список Задание2
+
+mutable_list = ([1,2,3], 'a','b')
+mutable_list [0][1] = 'c'
+print( mutable_list) #Задание3
 
